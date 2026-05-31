@@ -1638,7 +1638,7 @@ img { max-width: 100%; }
 /* ══════════════════════════════════════════════
    CONFIGURATION
    ══════════════════════════════════════════════ */
-const WEBHOOK_URL  = 'https://n8n-service-qafi.onrender.com/webhook/lumi-ai';
+const WEBHOOK_URL  = 'http://163.176.205.19.nip.io:5678/webhook/lumi-ai';
 let SESSION_ID     = localStorage.getItem('lumi_session_id');
 if (!SESSION_ID) {
   SESSION_ID = 'user_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now();
